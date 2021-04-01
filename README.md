@@ -1,6 +1,8 @@
+# Projet d'Intégration : École nationale supérieure d'arts et métiers
+
 # Agence-web-Fidesio
-Projet d'Intégration : École nationale supérieure d'arts et métiers
-#JavaScript #CSS #HTML
+
+# JavaScript #CSS #HTML
 
 Le campus Arts et Métiers de Lille, se position
 comme un acteur incontournable de la robotique
