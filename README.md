@@ -3,9 +3,10 @@
 # Agence-web-Fidesio
 
 # JavaScript 
-CSS 
-HTML
+CSS3, 
+HTML5, Git.
 
+# Description :
 Le campus Arts et Métiers de Lille, se position
 comme un acteur incontournable de la robotique
 par ses activités de formation, de recherche et
