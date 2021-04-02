@@ -18,7 +18,7 @@ Intégrer cette page en version desktop, tablette et mobile.
 
 - Le code HTML doit passer la validation W3C.
 
-# Résultat :
+# Iconographie :
 
 ![](https://github.com/Av-code80/Agence-web-Fidesio/blob/main/img/head-slide-1.jpg)
 ![](https://github.com/Av-code80/Agence-web-Fidesio/blob/main/img/head-slide-2.jpg)
