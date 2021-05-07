@@ -16,11 +16,11 @@ h1{font-size: 2rem;}
 ul , li { margin:0;padding:0;list-style:none; font-size: 1.5rem;}
 
 /*--header--*/
-.head { color:#FFF;position: relative; }
+.head { color:#FFF;position: relative; } /*--To merge 2 Heads in one--*/
 .head::before { content:'';position:absolute;background:linear-gradient(to right,rgba(0,0,0,.4),transparent,transparent);left:0;top:0;width:100%;height:100%;z-index:0; }
 .head > div { position:absolute;z-index:1; }
 .head .menu { left: 17em;top: 6em;font-size: 0.8rem; }
-.head .menu > div > a { display:inline-block;background-color:#8c2365;margin:0 5px;padding:.1em .4em;color:#fff;position:relative; }
+.head .menu > div > a { display:inline-block;margin:0 5px;padding:.1em .4em;color:#fff;position:relative; }
 .head .menu > div > a:after {content: " ";position: absolute;display: block;width: calc( 100% + 12px );height: 100%;top: 0;left: -12px;z-index: -1;background: #8c2365;transform-origin: bottom left;-ms-transform: skew(-28deg, 0deg);-webkit-transform: skew(-28deg, 0deg);transform: skew(-28deg, 0deg);}
 .head .menu > div > a.active {background-color:#f09200; }
 .head .menu > div > a.active::after { background-color:#f09200;  }
@@ -36,9 +36,8 @@ ul , li { margin:0;padding:0;list-style:none; font-size: 1.5rem;}
 
 /*--Slider--*/
 .head .slider { bottom:0;left:0;width:100%;height:150px;background-color:rgba(0,0,0,.7);margin-top:2em; }
-.head .slide > div { display:block;position:relative;width:100%; }
-.head .slider > div > i { font-size:1.5em;height:150px;line-height:6em;padding:0 1em;
-background-color:rgba(0,0,0,.5);vertical-align:top;position:absolute;left:0;top:0;color:#fff }
+.head .slider > div { display:block;position:relative;width:100%; }
+.head .slider > div > i { font-size:1.5em;height:150px;line-height:6em;padding:0 1em;background-color:rgba(0,0,0,.5);vertical-align:top;position:absolute;left:0;top:0;color:#fff }
 .head .slider > div > i:last-child { left:unset;right:0; }
 /*--Slide i hover for respecting the SEO--*/
 .head .slider > div > i:hover { background-color:rgba(0,0,0,.3);color:#fff; }
@@ -67,7 +66,7 @@ background-color:rgba(0,0,0,.5);vertical-align:top;position:absolute;left:0;top:
 /*--Right section--*/
 .main .right { width:30%;background-color:#999;float:right;height:100%; }
 .main .right .map { width:100%;min-height:500px;background:#fff url('img/map.jpg') center no-repeat;background-position:center center;position:relative; }
-.main .right .map:before { content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(35, 52, 80, 0.982); }
+.main .right .map:before { content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(35, 52, 80, 0.900); }
 .main .right .map > div { position:absolute;left:0;bottom:0;width:100%;color:#FFF; }
 .main .right .map .trans { margin:0 2em;display: flex }
 .main .right .map .trans p { padding-left: 1em; }
@@ -83,6 +82,7 @@ background-color:rgba(0,0,0,.5);vertical-align:top;position:absolute;left:0;top:
 .foot .copy {color:#b0b0b0;}
 .foot .copy .far {padding-right: 5px;}
 .foot .link a { margin:0 .5em; }
+
 
 
 /*--Starting-MQ-600-smartphone--*/
