@@ -22,3 +22,15 @@ Intégrer cette page en version desktop, tablette et mobile.
 
 ![](https://github.com/Av-code80/Agence-web-Fidesio/blob/main/img/head-slide-1.jpg)
 ![](https://github.com/Av-code80/Agence-web-Fidesio/blob/main/img/head-slide-2.jpg)
+
+
+### Compétences dévelopées
+
+* Valider des données issues de sources externes
+* Gérer des événements JavaScript
+* Créer un plan de test pour une application
+* Interagir avec un web service avec JavaScript
+
+# Résultat
+
+Voici mon [site à consulter :](https://av-code80.github.io/Agence-web-Fidesio/)
