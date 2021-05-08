@@ -133,4 +133,40 @@ ul , li { margin:0;padding:0;list-style:none; font-size: 1.5rem;}
 @media only screen and (max-width: 1024px) 
 {.head .slider {bottom: 0;height: 173px;background-color: rgba(0,0,0,.7);}
 .head .slider ul {display: block;height: 150px;padding: 0 0em;}
+aside, img{padding-left: 8rem;}
+button{width: 35%;}
+
+aside {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #1c1a19;
+    color: #fff;
+    min-width: 161%;
+}
+
+.flex-container {
+    min-height: 0px;
+    box-sizing: border-box;
+    width: 162%;
+    padding: 1rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    flex: 1 1 auto;
+    -webkit-box-pack: initial;
+    justify-content: initial;
+    -webkit-box-align: initial;
+    align-items: initial;
+    margin-right: auto;
+}
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 22px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 22px;
+}
 }
